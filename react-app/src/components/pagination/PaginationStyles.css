@@ -1,0 +1,35 @@
+.pagination li{
+    display: inline-block;
+}
+      
+.pagination button {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+
+    background-color: #342056;
+    border: 1px solid #342056;
+    color: #f8f8f8;
+
+    font-weight: 500;
+
+}
+      
+      
+.pagination button:hover {
+    background-color: #47dcff;
+	border: 1px solid #47dcff;
+}
+    
+.pagination button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

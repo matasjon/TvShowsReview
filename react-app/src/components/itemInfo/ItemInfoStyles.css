@@ -1,0 +1,61 @@
+.itemInfo .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    min-width: 40%;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: black ;
+    margin: auto;
+  }
+  
+.card:hover {
+box-shadow: 0 16px 32px 0 rgba(0,0,0,0.3);
+}
+
+
+.itemInfo img {
+border-radius: 5px 5px 0 0;
+width: 100%;
+}
+  
+.cardContainer {
+padding: 2px 16px;
+word-wrap: break-word;
+}
+
+.itemInfo p{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.itemInfo .backButton{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+
+.itemInfo button{
+
+	padding: .5rem 1rem;
+	margin: 0.5rem 0;
+	background-color: #342056;
+	border: 1px solid #342056;
+	color: #f8f8f8;
+	font-size: 1.1rem;
+	font-weight: 500;
+	/* display: flex; */
+	border-radius: 4px;
+	/* margin-left: auto; */
+  }
+  
+.itemInfo button:hover{
+	background-color: #47dcff;
+	border: 1px solid #47dcff;
+}
